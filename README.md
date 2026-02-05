@@ -75,6 +75,44 @@ rc 5 1550
 disarm
 ```
 
+## Camera
+
+For access camera topic:
+
+```bash
+gz topic -e -t /front_camera
+```
+
+It will echo the camera’s image stream. If you want to view the camera directly in Gazebo, simply search for “Image Display” in the top bar of Gazebo.
+
+For ROS 2 applications, you need to add a bridge between Gazebo and ROS 2. Nevertheless, ros_gz_bridge does not function properly in the Harmonic version due to a known [issue](https://github.com/gazebosim/ros_gz/issues/727). Therefore, you should remove the source build of ros_gz and reinstall it using the `ros-humble-ros-gzharmonic` package.
+
+```bash
+cd ~/<your-colcon-workspace>
+rm -rf src/ros_gz
+rm -rf build/ros_gz*
+rm -rf install/ros_gz*
+
+sudo apt-get update
+sudo apt-get install ros-humble-ros-gzharmonic
+
+source /opt/ros/humble/setup.bash
+```
+
+Run ROS camera bridge:
+
+```bash
+ros2 run ros_gz_bridge parameter_bridge '/front_camera@sensor_msgs/msg/Image@ignition.msgs.Image'
+```
+
+Now you can view the image topic using rqt or RViz2:
+
+```bash
+ros2 run rqt_image_view rqt_image_view /front_camera
+# or
+rviz2
+```
+
 ## MAVROS
 
 Install MAVROS for ROS 2:
