@@ -136,6 +136,7 @@ colcon to build and manage the environment.
    ```bash
    ./scripts/clean_gazebo_cache.sh
    ```
+* Change camera resolution at [bluerov2/model.sdf](./models/bluerov2/model.sdf) in line 455-456.
 
 ## References
 
