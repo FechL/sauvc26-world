@@ -17,13 +17,12 @@ HydrodynamicsPlugin and ThrusterPlugin.
 ## Models 
 
 - Starting Zone
-- Qualification Gate
-- Final Gate
-- Drums (red and blue drums)
-- Flares (orange, yellow, red, blue)
-- BlueROV2
+- Gates: qualification gate and final gate
+- Drums: blue, red, and pinger (pinger still in development)
+- Flares: orange, yellow, red, blue
+- BlueROV2: bluerov2, bluerov2_heavy, bluerov2_ping (heavy and ping still in development)
+- Ball (still in development)
 - Golf Ball (still in development)
-- Drum Pinger (still in development)
 
 ## Requirements
 
