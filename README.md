@@ -131,6 +131,12 @@ ros2 launch mavros apm.launch fcu_url:=udp://:14550@localhost:14555
 ROS2 users should add `ardupilot_gazebo -b ros2` and `bluerov2_gz` to the colcon workspace and use
 colcon to build and manage the environment.
 
+## Throubleshoot
+* If the robot is teleporting, clean the gazebo cache and restart.
+   ```bash
+   ./scripts/clean_gazebo_cache.sh
+   ```
+
 ## References
 
 * https://github.com/ardupilot/ardupilot_gazebo/wiki
