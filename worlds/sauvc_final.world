@@ -89,7 +89,7 @@
 
     <model name="pool_structure">
       <static>true</static>
-      <pose>0 0 -1.65 0 0 0</pose>
+      <pose>0 0 -1.58 0 0 0</pose>
 
       <!-- Pool floor -->
       <include>
