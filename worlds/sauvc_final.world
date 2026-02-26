@@ -297,7 +297,7 @@
     <include>
       <uri>model://bluerov2</uri>
       <name>bluerov2</name>
-      <pose>-11.83 0 -1 0 0 0</pose>
+      <pose>-11.83 0 0 0 0 0</pose>
     </include>
 
   </world>
