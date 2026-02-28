@@ -274,7 +274,7 @@
     <include>
       <uri>model://red_flare</uri>
       <name>red_flare_1</name>
-      <pose>2.5 5 -.6 0 0 0</pose>
+      <pose>2.5 5 -1.6 0 0 0</pose>
       <static>true</static>
     </include>
 
