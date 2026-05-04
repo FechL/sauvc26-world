@@ -216,14 +216,6 @@
       </link>
     </model>
 
-    <!-- ============= STARTING ZONE ============= -->
-    <include>
-      <uri>model://starting_zone</uri>
-      <name>starting_zone</name>
-      <pose>-11.83 0 0 0 0 0</pose>
-      <static>true</static>
-    </include>
-
     <!-- ============= QUALIFICATION GATES ============= -->
     <include>
       <uri>model://gate_qualification</uri>
