@@ -225,7 +225,6 @@
     </include>
 
     <!-- ============= BLUEROV2 AUV ============= -->
-    <!-- BlueROV2 at starting zone, slightly submerged -->
     <include>
       <uri>model://bluerov2</uri>
       <name>bluerov2</name>
