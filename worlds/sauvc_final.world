@@ -235,7 +235,7 @@
     <!-- ============= ORANGE FLARE (Navigation obstacle) ============= -->
     <include>
       <uri>model://orange_flare</uri>
-      <name>orange_flare_1</name>
+      <name>orange_flare</name>
       <pose>-6.5 0 -1.6 0 0 0</pose>
       <static>true</static>
     </include>
@@ -300,5 +300,10 @@
       <pose>-11.83 0 0 0 0 0</pose>
     </include>
 
+    <gui>
+      <camera name="user_camera">
+        <pose>-20 0 1 0 0 0</pose>
+      </camera>
+    </gui>
   </world>
 </sdf>
