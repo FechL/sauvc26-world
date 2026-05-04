@@ -300,10 +300,5 @@
       <pose>-11.83 0 0 0 0 0</pose>
     </include>
 
-    <gui>
-      <camera name="user_camera">
-        <pose>-20 0 1 0 0 0</pose>
-      </camera>
-    </gui>
   </world>
 </sdf>
