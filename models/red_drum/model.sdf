@@ -4,9 +4,9 @@
        Using mesh from sauvc_sim
        Exterior: Black, Interior: Red
   -->
-  <model name="drum">
+  <model name="red_drum">
     <static>true</static>
-    
+
     <link name="link_0">
       <pose>0 0 0 1.5708 0 0</pose>
       <inertial>
@@ -20,25 +20,25 @@
           <izz>0.166667</izz>
         </inertia>
       </inertial>
-      
+
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://drum/meshes/drum.obj</uri>
+            <uri>model://red_drum/meshes/drum.obj</uri>
             <scale>0.3 0.3 0.3</scale>
           </mesh>
         </geometry>
         <material>
-          <ambient>0.1 0.1 0.1 1</ambient>
-          <diffuse>0.15 0.15 0.15 1</diffuse>
-          <specular>0.2 0.2 0.2 1</specular>
+          <ambient>0.8 0.1 0.1 1</ambient>
+          <diffuse>0.9 0.2 0.2 1</diffuse>
+          <specular>0.4 0.3 0.3 1</specular>
         </material>
       </visual>
-      
+
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://drum/meshes/drum.obj</uri>
+            <uri>model://red_drum/meshes/drum.obj</uri>
             <scale>0.3 0.3 0.3</scale>
           </mesh>
         </geometry>

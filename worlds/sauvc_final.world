@@ -226,8 +226,8 @@
 
     <!-- ============= FINALS GATE ============= -->
     <include>
-      <uri>model://gate</uri>
-      <name>finals_gate</name>
+      <uri>model://final_gate</uri>
+      <name>final_gate</name>
       <pose>3.5 0 -1.6 0 0 -1.6</pose>
       <static>true</static>
     </include>
@@ -243,7 +243,7 @@
     <!-- ============= TARGET ZONE (Drums) ============= -->
 
     <include>
-      <uri>model://drum</uri>
+      <uri>model://red_drum</uri>
       <name>red_drum_1</name>
       <pose>11.5 1.8 -1.6 0 0 0</pose>
       <static>true</static>
@@ -257,14 +257,14 @@
     </include>
 
     <include>
-      <uri>model://drum</uri>
+      <uri>model://red_drum</uri>
       <name>red_drum_2</name>
       <pose>11.5 -0.6 -1.6 0 0 0</pose>
       <static>true</static>
     </include>
 
     <include>
-      <uri>model://drum</uri>
+      <uri>model://red_drum</uri>
       <name>red_drum_3</name>
       <pose>11.5 -1.8 -1.6 0 0 0</pose>
       <static>true</static>
